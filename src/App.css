@@ -1,0 +1,59 @@
+.App {
+  /* border:1px solid red;   */
+}
+.layout{
+  max-width:1200px;
+  margin:10px auto;
+}
+.header{
+  display:flex;  
+}
+.logo{
+  border:1px solid black;
+  flex:20%;
+  text-align:center;
+  padding:20px;
+}
+.links{
+  border:1px solid black;
+  flex:80%;
+  text-align:right;
+  padding:20px;  
+}
+.main{  
+  display:flex;
+  min-height: 500px;
+}
+.text1{
+  border:1px solid black;
+  flex:55%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  padding:50px;  
+}
+.text2{
+  flex:45%;
+  border:1px solid black;
+}
+footer{
+  border:1px solid black;
+  height: 200px;
+  padding-left:40px;
+  padding-top:40px;
+}
+@media screen and (max-width:768px){
+  .header, .main {
+    flex-direction:column
+  }
+  
+}
+
+
+
+
+
+
+
+
